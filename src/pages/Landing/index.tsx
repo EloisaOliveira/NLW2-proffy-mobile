@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Image, Text, TouchableOpacity } from 'react-native';
+import { View, Image, Text } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { RectButton } from 'react-native-gesture-handler';
 
@@ -19,7 +19,7 @@ function Landing() {
 
     return (
         <View style={styles.container}>
-            <Image source={landingImg} style={styles.banner}/>
+            <Image style={styles.banner} source={landingImg} />
 
             <Text style={styles.title}>
                 Seja bem-vindo, {'\n'}
